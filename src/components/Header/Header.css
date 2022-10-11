@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.nav h1 {
+    font-size: 40px;
+    color: aqua;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 22px;
+    padding-left: 15px;
+}
+
+.nav a:hover {
+
+    font-size: 32px;
+    color: deeppink;
+
+}

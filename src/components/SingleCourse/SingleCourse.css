@@ -1,0 +1,20 @@
+.course {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.course img {
+    background-color: rgb(233, 230, 255);
+    margin-top: 20px;
+}
+
+.about {
+    display: grid;
+}
+
+.about button {
+    background-color: chartreuse;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+}

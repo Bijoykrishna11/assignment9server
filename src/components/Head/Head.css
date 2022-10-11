@@ -1,0 +1,15 @@
+.head {
+    background-image: url("https://imgs.search.brave.com/j_8WTpGZ5I8Aoerz5ZpGcBnClMMvo9WKnQh-RwhdYj0/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4z/UWMxRGVjbmZldnhn/VS1xY2dxc09RSGFF/SyZwaWQ9QXBp");
+    background-size: cover;
+}
+
+.head h1 {
+    color: rgb(29, 0, 158);
+    padding-bottom: 5px;
+}
+
+.head p {
+    padding-bottom: 30px;
+    font-size: 22px;
+
+}
