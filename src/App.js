@@ -33,6 +33,12 @@ function App() {
           element: <Blog></Blog>
         }
       ]
+    },
+    {
+      path: '*',
+      element: <div>
+        <h1>NO data Ableaable</h1>
+        <p>404</p></div>
     }
   ])
   return (
