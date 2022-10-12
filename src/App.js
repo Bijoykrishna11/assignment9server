@@ -1,17 +1,16 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home/Home';
-import Main, { QuizId } from './layout/Main';
+import Main from './layout/Main';
 import Topics from './components/Topics/Topics';
-import React, { useContext } from 'react';
+
 import Blog from './components/Blog/Blog';
 import Statistics from './components/Statistics/Statistics';
 import Quiz from './components/Quiz/Quiz';
 
 function App() {
 
-  const id = useContext(QuizId)
-  console.log(id)
+
 
   const router = createBrowserRouter([
     {
@@ -38,7 +37,7 @@ function App() {
         },
         {
           path: '/quiz/:id',
-          loader: async ({ params }) => fetch(`https://openapi.programming-hero.com/api/quiz/${id}`),
+          loader: async ({ params }) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`),
           element: <Quiz></Quiz>
         }
       ]
