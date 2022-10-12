@@ -8,8 +8,9 @@ const SingleCourse = ({ singlecourse }) => {
             <img src={logo} />
             <div className="about">
                 <h2>{name}</h2>
-                <h4>{total}</h4>
+                <h4>{total} quizes</h4>
                 <button>Start Practics</button>
+
 
             </div>
         </div>
