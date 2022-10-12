@@ -37,7 +37,7 @@ function App() {
     {
       path: '*',
       element: <div>
-        <h1>NO data Ableaable</h1>
+        <h1>NO data Available</h1>
         <p>404</p></div>
     }
   ])

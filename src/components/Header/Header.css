@@ -5,6 +5,21 @@
     gap: 200px;
 }
 
+@media only screen and (max-width: 1080px) {
+    .routess {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .titel {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
 .nav h1 {
     font-size: 40px;
     color: aqua;
